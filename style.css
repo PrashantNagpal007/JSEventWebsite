@@ -1,49 +1,69 @@
-/* Styles go here */
-
-
-.divColor
-{
-  background-color:#D94A38;
-  width:120px;
-  height:20px;
-  padding:40px;
+.jumbotron{
+ background-color: #1e7df4;
+color: #ffffff;
+padding: 100px 25px;
 }
 
-.dropbtn
-{
-  background-color: #4CAF50;
-    color: white;
-    padding: 14px;
-    font-size: 14px;
-    border: none;
-    cursor: pointer;
+.container-fluid{
+    padding: 60px 50px;
 }
 
-.dropbtn:hover, .dropbtn.focus{
-  background-color: #3e8e41;
+.bg-grey{
+    background-color: #f6f6f6;
 }
 
-.dropdown{
-  position : relative;
-  display : inline-block;
+.logo{
+    font-size: 200px;
+    color: #1e7df4;
 }
 
-.dropdown-content{
-  display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+.logo-small{
+    font-size: 50px;
+    color: #1e7df4;
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display:block;
+@media screen and (max-width : 768px){
+    .col-sm-4{
+        text-align: center;
+        margin: 25px 0;
+    }
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.navbar{
+    margin-bottom: 0;
+    background-color: #1e7df4;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.428 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
 
-.show {display:block;}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #1e7df4 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+.jumbotron {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
